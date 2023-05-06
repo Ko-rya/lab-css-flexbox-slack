@@ -8,41 +8,108 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-body, html {
-    margin: 0px;
-    padding: 0px;
+body,
+html {
+  margin: 0px;
+  padding: 0px;
 }
 
+/* Navbar */
+nav {
+  background-color: #540b51;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
 
-/* ============================= */
+.navbar img {
+  width: 150px;
+}
 
-/* I will paste my codes here */
+.nav-icons button {
+  background-color: #540b51;
+  border: none;
+}
 
+.menu-items {
+  display: none;
+}
 
+/* ============  */
 
+/* ===== Header ======= */
 
+header {
+  background-color: #540b51;
+  padding: 25px;
+}
 
-/* ================================= */
+.header-text {
+  color: white;
+}
 
+.header-text button {
+  width: 100%;
+}
+
+#signup-button {
+  padding: 10px;
+  color: #540b51;
+  font-weight: bold;
+  border-radius: 5px;
+  border: #540b51 1px solid;
+  background-color: white;
+}
+
+#google-button {
+  padding: 5px;
+  border-radius: 5px;
+  border: #540b51 1px solid;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #4285f4;
+  color: white;
+
+  display: flex;
+}
+
+#google-button span {
+  align-self: center;
+}
+
+#google-button img {
+  height: 25px;
+  display: flex;
+  text-align: center;
+  background-color: white;
+}
+
+.header-image img {
+  margin-top: 10px;
+  width: 120%;
+}
+
+/* ============== */
 
 .companies {
-    background-color: #F3EAE2;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-weight: bold;
-    font-size: 3.5vw;
-    width: 100vw;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  background-color: #f3eae2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 3.5vw;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
 }
 
 .companies-list > img {
-    max-height: 5vh;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
+  max-height: 5vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 .companies-list {
     display: flex;
