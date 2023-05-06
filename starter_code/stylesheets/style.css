@@ -219,14 +219,14 @@ ul {
   font-size: 14px;
 }
 
-#teams-btn-1 {
+.custom-btn-filled {
   background-color: #540b51;
   color: white;
   text-transform: uppercase;
   margin: 0 0 10px 0;
 }
 
-#teams-btn-2 {
+.custom-btn-outline {
   color: #540b51;
   font-weight: bold;
   text-transform: uppercase;
@@ -261,3 +261,40 @@ small{
     display: block;
     margin: 10px
 }
+
+
+/* ======== HQ Section ========= */
+
+.hq-section {
+  background-color: #540b51;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 30px 10px;
+}
+
+.hq-section > h3 {
+  font-size: 30px;
+}
+
+.hq-section button {
+ padding: 10px;
+ border-radius: 3px;
+ font-size: 14px;
+}
+
+.primary-border {
+  border: 1px solid #540b51;
+}
+
+.light-border {
+  border: 1px solid white;
+}
+
+.mt-10 {
+margin-top: 10px;
+}
+
+/* ============================== */
