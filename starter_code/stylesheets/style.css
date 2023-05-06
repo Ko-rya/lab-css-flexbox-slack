@@ -142,11 +142,14 @@ a {
 
 .footer-lists {
     display: flex;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #454245;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #989898;
     color: #454245;
     justify-content: space-around;
     font-size: 3.5vw;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .footer > img {
     margin: 4vw 0 0 40px;
@@ -160,4 +163,12 @@ ul {
 
 .footer-lists >ul >li {
     margin-top: 15px;
+}
+.social-medias > li {
+    margin-top: 25px;
+    font-weight: bold;
+}
+.social-medias-logos {
+    display: flex;
+    justify-content: space-between;
 }
