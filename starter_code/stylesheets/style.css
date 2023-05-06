@@ -128,65 +128,65 @@ header {
   width: 100vw;
 }
 a {
-  text-decoration: none;
-  color: #2e71a6;
-}
-.infos > div > img {
-  width: 92vw;
-}
-
-.infos-header {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 30px;
-}
-.second-info-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.footer-lists {
+    text-decoration: none;
+    color: #2e71a6;
+  }
+  .infos > div > img {
+    width: 92vw;
+  }
+  
+  .infos-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+  .second-info-section {
     display: flex;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #989898;
-    color: #454245;
-    justify-content: space-around;
-    font-size: 3.5vw;
-    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .footer-lists {
+      display: flex;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #989898;
+      color: #454245;
+      justify-content: space-around;
+      font-size: 3.5vw;
+      box-sizing: border-box;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  .footer > img {
+    margin: 4vw 0 0 40px;
+    width: 15vw;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0px;
     margin-left: 20px;
-    margin-right: 20px;
-}
-.footer > img {
-  margin: 4vw 0 0 40px;
-  width: 15vw;
-}
-ul {
-  list-style: none;
-  padding-left: 0px;
-  margin-left: 20px;
-}
-.footer-lists > ul > li:first-child {
-    font-weight: bold;
-}
-.footer-lists >ul >li {
-    margin-top: 15px;
-}
-.social-medias > li {
-    margin-top: 25px;
-    font-weight: bold;
-}
-.social-medias > li:last-child {
-   color: #2E71A6
-}
-.social-medias > li > img {
-    margin-right: 5px;
-}
-.social-medias-logos {
-    display: flex;
-    justify-content: space-between;
-}
-
+  }
+  .footer-lists > ul > li:first-child {
+      font-weight: bold;
+  }
+  .footer-lists >ul >li {
+      margin-top: 15px;
+  }
+  .social-medias > li {
+      margin-top: 25px;
+      font-weight: bold;
+  }
+  .social-medias > li:last-child {
+     color: #2E71A6
+  }
+  .social-medias > li > img {
+      margin-right: 5px;
+  }
+  .social-medias-logos {
+      display: flex;
+      justify-content: space-between;
+  }
+  
 
 /* ======== Teams Large Section */
 .teams-large-section {
@@ -240,7 +240,10 @@ ul {
 .teams-large-section ul li {
   margin: 40px;
 }
-
+small{
+    display: block;
+    margin: 10px
+    }
 
 .ul-title-styles {
   font-size: 35px;
@@ -257,10 +260,6 @@ ul {
 }
 
 /* ============================ */
-small{
-    display: block;
-    margin: 10px
-}
 
 
 /* ======== HQ Section ========= */
