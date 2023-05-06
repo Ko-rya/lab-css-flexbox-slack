@@ -116,20 +116,26 @@ header {
     justify-content: center;
     flex-wrap: wrap;
 }
-.team {
+.infos {
     background-color: #F3EAE2;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     width: 100vw;
-
 }
 a {
     text-decoration: none;
     color: #2E71A6
   }
-.team > div > img {
+.infos > div > img {
     width: 92vw;
 }
-.team-text {
+
+.infos-header {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 30px;
+}
+.second-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
