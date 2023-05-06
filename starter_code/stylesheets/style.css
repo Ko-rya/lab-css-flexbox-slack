@@ -8,6 +8,11 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 body,
 html {
   margin: 0px;
@@ -23,7 +28,7 @@ nav {
 }
 
 .navbar img {
-  width: 150px;
+  width: 100px;
 }
 
 .nav-icons button {
@@ -41,11 +46,20 @@ nav {
 
 header {
   background-color: #540b51;
-  padding: 25px;
+  padding: 5px 25px 0px 25px;
 }
 
 .header-text {
   color: white;
+}
+
+.header-text h1,
+p {
+  text-align: center;
+}
+
+#try-slack {
+  color: #ecb12f;
 }
 
 .header-text button {
@@ -69,12 +83,12 @@ header {
   font-weight: bold;
   background-color: #4285f4;
   color: white;
-
   display: flex;
 }
 
 #google-button span {
   align-self: center;
+  padding-left: 25%;
 }
 
 #google-button img {
@@ -86,10 +100,10 @@ header {
 
 .header-image img {
   margin-top: 10px;
-  width: 120%;
+  width: 100vh;
 }
 
-/* ============== */
+/* ======= Header ======= */
 
 .companies {
   background-color: #f3eae2;
@@ -112,24 +126,48 @@ header {
   margin-top: 20px;
 }
 .companies-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .team {
-    background-color: #F3EAE2;
-    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-    width: 100vw;
-
+  background-color: #f3eae2;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+  width: 100vw;
 }
 a {
-    text-decoration: none;
-    color: #2E71A6
-  }
+  text-decoration: none;
+  color: #2e71a6;
+}
 .team > div > img {
-    width: 92vw;
+  width: 92vw;
 }
 .team-text {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+
+
+/* ======== Teams Large Section */
+ .teams-large-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .teams-large-section > h3 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+ }
+
+ .teams-large-section > p {
+  color: #540b51;
+ }
+
+
+
+/* ============================ */

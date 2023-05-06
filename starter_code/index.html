@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="./stylesheets/style.css" />
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
+
+  <!-- Added fonts here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
   <title>Slack is your digital HQ | Slack</title>
 </head>
 
@@ -64,7 +70,7 @@
     <div class="header-text">
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span id="try-slack">Slack is free to try</span> for as long as you'd like.</p>
 
       <div>
         <button id="signup-button">Sign up with email</button>
@@ -155,8 +161,8 @@
       </div>
     </section>
 
- <!-- 
-    <section>
+
+    <section class="teams-large-section">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
@@ -192,6 +198,7 @@
       </ul>
     </section>
 
+<!-- 
     <section>
       <h3>Welcome to your new digital HQ</h3>
 
