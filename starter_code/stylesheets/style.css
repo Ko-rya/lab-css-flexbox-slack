@@ -164,7 +164,8 @@ a {
   ul {
     list-style: none;
     padding-left: 0px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px
   }
   .footer-lists > ul > li:first-child {
       font-weight: bold;
@@ -185,6 +186,8 @@ a {
   .social-medias-logos {
       display: flex;
       justify-content: space-between;
+      margin-left: 20px;
+      margin-right: 20px;
   }
   
 
