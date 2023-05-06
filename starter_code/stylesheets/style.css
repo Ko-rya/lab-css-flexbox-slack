@@ -158,7 +158,7 @@ a {
 
 /* ======== Teams Large Section */
  .teams-large-section {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,6 +172,11 @@ a {
 
  .teams-large-section > p {
   color: #540b51;
+ }
+
+ .teams-large-btns-container {
+  display: flex;
+  flex-direction: column;
  }
 
 
