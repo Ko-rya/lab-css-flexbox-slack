@@ -8,3 +8,32 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.companies {
+    background-color: #F3EAE2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 3.5vw;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+.companies-list > img {
+    max-height: 5vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.companies-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

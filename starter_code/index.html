@@ -18,10 +18,10 @@
 
 <body>
   <nav>
-    <div>
+    <div class="navbar">
       <img src="./images/slack-logo.png" alt="Slack logo" />
-
-      <ul>
+      <h4>Slack</h4>
+      <ul class="menu-items">
         <li>
           <a href="#">Product</a>
         </li>
@@ -57,7 +57,7 @@
     </div>
   </nav>
 
-  <header>
+<header>
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
@@ -67,7 +67,7 @@
         <button>Sign up with email</button>
 
         <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
+          <!-- <img src="./images/logo-google.png" alt="Google logo" /> -->
           <span>Sign up with Google</span>
         </button>
       </div>
@@ -75,15 +75,19 @@
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+
+      <!-- TODO: Remove the width and add to CSS -->
+      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" width="120px"/>
     </div>
-  </header>
+  </header> 
+
+
 
   <main>
-    <section>
+    <section class="companies">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div class="companies-list">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -93,7 +97,7 @@
       </div>
 
     </section>
-
+ <!-- 
     <section>
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
@@ -270,6 +274,6 @@
     </div>
 
   </footer>
+  -->
 </body>
-
 </html>
