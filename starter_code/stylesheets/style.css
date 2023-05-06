@@ -146,6 +146,28 @@ a {
   align-items: flex-end;
 }
 
+.footer-lists {
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #454245;
+  color: #454245;
+  justify-content: space-around;
+  font-size: 3.5vw;
+}
+.footer > img {
+  margin: 4vw 0 0 40px;
+  width: 15vw;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 20px;
+}
+
+.footer-lists >ul >li {
+  margin-top: 15px;
+}
+
 /* ======== Teams Large Section */
 .teams-large-section {
   padding: 20px;
