@@ -8,6 +8,11 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 body,
 html {
   margin: 0px;
@@ -112,63 +117,53 @@ header {
   margin-top: 20px;
 }
 .companies-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .infos {
-    background-color: #F3EAE2;
-    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-    width: 100vw;
+  background-color: #f3eae2;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+  width: 100vw;
 }
 a {
-    text-decoration: none;
-    color: #2E71A6
-  }
+  text-decoration: none;
+  color: #2e71a6;
+}
 .infos > div > img {
-    width: 92vw;
+  width: 92vw;
 }
 
 .infos-header {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
 }
 .second-info-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .footer-lists {
     display: flex;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #989898;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #454245;
     color: #454245;
     justify-content: space-around;
     font-size: 3.5vw;
-    box-sizing: border-box;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 .footer > img {
-    margin: 4vw 0 0 40px;
-    width: 15vw;
+  margin: 4vw 0 0 40px;
+  width: 15vw;
 }
 ul {
-    list-style: none;
-    padding-left: 0px;
-    margin-left: 20px;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 20px;
 }
 
 .footer-lists >ul >li {
-    margin-top: 15px;
-}
-.social-medias > li {
-    margin-top: 25px;
-    font-weight: bold;
-}
-.social-medias-logos {
-    display: flex;
-    justify-content: space-between;
+  margin-top: 15px;
 }
