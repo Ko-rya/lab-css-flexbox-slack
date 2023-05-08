@@ -80,6 +80,7 @@ header {
 
 #google-button span {
   align-self: center;
+  flex-grow: 1;
 }
 
 #google-button img {
