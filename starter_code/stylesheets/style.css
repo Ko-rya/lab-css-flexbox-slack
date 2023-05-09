@@ -314,7 +314,6 @@ small {
     color: #fff;
   }
 
-  /* Display menu items and hide nav-icons */
   .menu-items {
     display: flex;
     padding-left: 20px;
@@ -323,7 +322,6 @@ small {
     padding-left: 15px;
     font-weight: bold;
   }
-  /* Set the order of elements in navbar */
   .navbar {
     display: flex;
   }
@@ -357,5 +355,29 @@ small {
     width: 100px;
     height: 25px;;
     margin-top: 12px;
+  }
+  .header-text > h1{
+    font-size: 4.5vw;
+  }
+  .header-text{
+    width: 40vw;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 100px;
+  }
+  .header-image>img{
+    width: 40vw;
+  }
+  .header-buttons{
+    display: flex;
+    gap: 15px;
+    height: 100%;
+  }
+  #google-button {
+    margin-top: 0px;
   }
 }
