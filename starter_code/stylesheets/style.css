@@ -292,12 +292,14 @@ small {
   font-size: 30px;
 }
 
-.hq-section button {
+.hq-buttons button {
   padding: 10px;
   border-radius: 3px;
   font-size: 14px;
+  width: 100%;
 }
 
+/* Shared */
 .primary-border {
   border: 1px solid #540b51;
 }
@@ -308,6 +310,10 @@ small {
 
 .mt-10 {
   margin-top: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
 }
 
 /* ============================== */
@@ -444,6 +450,56 @@ small {
   .teams-large-section ul {
     display: flex;
     justify-content: center;
+  }
+
+
+  /* hq */
+  .hq-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hq-buttons button {
+    width: max-content;
+    padding: 20px;
+  }
+
+  .hq-buttons > button {
+  margin-right: 20px;
+  }
+
+
+  /* footer */
+
+  .footer {
+    padding: 0 20px 20px 20px;
+  }
+
+  .footer > img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .footer-lists {
+    justify-content: space-between;
+  }
+
+  .lists {
+    font-size: 17px;
+  }
+
+  .social-medias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-medias-logos {
+    justify-content: start;
+  }
+
+  .social-medias-logos li {
+    margin-right: 50px;
   }
 
 }
