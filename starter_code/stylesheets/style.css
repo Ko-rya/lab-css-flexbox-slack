@@ -309,3 +309,53 @@ small {
 }
 
 /* ============================== */
+@media only screen and (min-width: 768px) {
+  .menu-items li a {
+    color: #fff;
+  }
+
+  /* Display menu items and hide nav-icons */
+  .menu-items {
+    display: flex;
+    padding-left: 20px;
+  }
+  .menu-items > li {
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  /* Set the order of elements in navbar */
+  .navbar {
+    display: flex;
+  }
+  #menu-button {
+    display: none;
+  }
+  .nav-icons ul {
+    display: flex;
+    gap: 10px;
+  }
+  .nav-icons {
+    display: flex;
+  }
+  .nav-icons ul > li:first-child a{
+    color: white;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    font-size: min(1.5vw, 20px);
+    
+  }
+  .nav-icons ul > li:last-child a{
+    color: #540B51;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 4%;
+    font-size: min(1.5vw, 20px);
+  }
+  .navbar img {
+    width: 100px;
+    height: 25px;;
+    margin-top: 12px;
+  }
+}
