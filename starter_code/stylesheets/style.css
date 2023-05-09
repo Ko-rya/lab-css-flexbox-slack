@@ -384,7 +384,7 @@ small {
   }
   .companies-list{
     gap: 5vw;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .companies >p {
   font-size: max(1.4vw, 17px);
