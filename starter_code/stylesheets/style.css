@@ -74,7 +74,6 @@ header {
   font-weight: bold;
   background-color: #4285f4;
   color: white;
-
   display: flex;
 }
 
@@ -116,6 +115,9 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 20px;
+}
+.infos img:last-child {
+  display: none;
 }
 .companies-list {
   display: flex;
@@ -380,4 +382,49 @@ small {
   #google-button {
     margin-top: 0px;
   }
+  .companies-list{
+    gap: 5vw;
+    padding-bottom: 100px;
+}
+.companies >p {
+  font-size: max(1.4vw, 17px);
+}
+.infos{
+  display: flex;
+  column-gap: 28vw;
+  font-size: max(1.2vw, 17px);
+}
+.infos > div > img:last-child {
+  display: block;
+  width: 35vw;
+}
+.infos > div > img:first-child {
+  display: none;
+}
+.infos-header{
+  width: 500px;
+  margin-right: 15px;
+}
+.infos{
+  display: flex;
+  column-gap: 28vw;
+  font-size: max(1.2vw, 17px);
+  padding-bottom: 50px;
+}
+.infos > div > img:last-child {
+  display: block;
+  width: 35vw;
+}
+.infos > div > img:first-child {
+  display: none;
+}
+.infos-header{
+  width: 500px;
+  margin-right: 15px;
+}
+.second-info-section{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
 }
